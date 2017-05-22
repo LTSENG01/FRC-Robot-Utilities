@@ -42,6 +42,9 @@ public class XboxController extends Joystick {
 		
 	}
 	
+	/**
+	 * Enum of possible XboxController D-Pad buttons.
+	 */
 	public enum DirectionalPad implements XboxControllerControls {
 		D_TOP(0), D_RIGHT(90), D_BOTTOM(180), D_LEFT(270);
 		
@@ -57,6 +60,9 @@ public class XboxController extends Joystick {
 		
 	}
 	
+	/**
+	 * Enum of possible XboxController axes.
+	 */
 	public enum Axes implements XboxControllerControls {
 		LEFT_X(0), LEFT_Y(1), LEFT_TRIGGER(2), RIGHT_TRIGGER(3), RIGHT_X(4), RIGHT_Y(5);
 		
