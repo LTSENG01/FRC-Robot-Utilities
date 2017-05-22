@@ -1,10 +1,10 @@
-import OperatorControllers.XboxController;
-import OperatorControllers.XboxController.Axes;
-import OperatorControllers.XboxController.Buttons;
-import OperatorControllers.XboxController.DirectionalPad;
-import Sensors.ReedSwitch;
 import edu.wpi.first.wpilibj.GenericHID.RumbleType;
 import edu.wpi.first.wpilibj.command.Command;
+import larrytseng.frcrobotutils.operatorcontrollers.XboxController;
+import larrytseng.frcrobotutils.operatorcontrollers.XboxController.Axes;
+import larrytseng.frcrobotutils.operatorcontrollers.XboxController.Buttons;
+import larrytseng.frcrobotutils.operatorcontrollers.XboxController.DirectionalPad;
+import larrytseng.frcrobotutils.sensors.ReedSwitch;
 
 public class Test {
 	

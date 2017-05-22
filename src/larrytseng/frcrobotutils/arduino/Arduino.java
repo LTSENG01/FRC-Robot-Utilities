@@ -1,4 +1,4 @@
-package Arduino;
+package larrytseng.frcrobotutils.arduino;
 
 import edu.wpi.first.wpilibj.I2C;
 
