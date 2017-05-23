@@ -1,4 +1,4 @@
-package larrytseng.frcrobotutils.sensors;
+package larrytseng.frcrobotutils.hardware.sensors;
 
 import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.buttons.Trigger;

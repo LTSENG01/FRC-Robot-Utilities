@@ -1,4 +1,4 @@
-package larrytseng.frcrobotutils.arduino;
+package larrytseng.frcrobotutils.hardware.arduino;
 
 /**
  * Interface for I2C communicating devices on the roboRIO.

@@ -1,15 +1,20 @@
+import java.util.ArrayList;
+
+import edu.wpi.first.wpilibj.SpeedController;
 import edu.wpi.first.wpilibj.GenericHID.RumbleType;
 import edu.wpi.first.wpilibj.command.Command;
 import larrytseng.frcrobotutils.operatorcontrollers.XboxController;
 import larrytseng.frcrobotutils.operatorcontrollers.XboxController.Axes;
 import larrytseng.frcrobotutils.operatorcontrollers.XboxController.Buttons;
 import larrytseng.frcrobotutils.operatorcontrollers.XboxController.DirectionalPad;
-import larrytseng.frcrobotutils.sensors.ReedSwitch;
+import larrytseng.frcrobotutils.hardware.sensors.ReedSwitch;
 
 public class Test {
 	
 	private XboxController xboxController;
 	private ReedSwitch reedSwitch;
+	
+	private ArrayList<SpeedController> motorControllers = new ArrayList<SpeedController>();
 	
 	public Test() {
 		xboxController = new XboxController(0);

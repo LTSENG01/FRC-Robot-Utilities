@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="/Steamworks2017/libs/cscore.jar" sourcepath="/Steamworks2017/libs/cscore-sources.jar"/>
-	<classpathentry kind="lib" path="/Steamworks2017/libs/CTRLib.jar" sourcepath="/Steamworks2017/libs/WPILib-sources.jar"/>
+	<classpathentry kind="lib" path="/Steamworks2017/libs/CTRLib.jar"/>
 	<classpathentry kind="lib" path="/Steamworks2017/libs/navx_frc.jar"/>
 	<classpathentry kind="lib" path="/Steamworks2017/libs/NetworkTables.jar" sourcepath="/Steamworks2017/libs/NetworkTables-sources.jar"/>
 	<classpathentry kind="lib" path="/Steamworks2017/libs/opencv.jar" sourcepath="/Steamworks2017/libs/opencv-sources.jar"/>
